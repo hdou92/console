@@ -1,0 +1,3 @@
+inspect:
+  apps:
+    - { "packageName": "spring-boot-test-1.0.jar", "checkAliveAppCmds": ["cmd", "/c", "jps | find \"spring-boot-test-1.0.jar\""], "runAppCmds": ["cmd", "/c", "java -jar \"E:/work/java/wcode/logistics/lora-base/console/spring-boot-test/target/spring-boot-test-1.0.jar\""], "processIdAppCmds": ["cmd", "/c", "jps | find \"spring-boot-test-1.0.jar\""], "closeAppCmds": ["cmd", "/c", "taskkill /pid {0} -t -f"] }

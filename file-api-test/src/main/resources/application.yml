@@ -1,0 +1,14 @@
+server.port: 8090
+
+# 默认值为 /**
+#spring.mvc.static-path-pattern: /static/**
+# 默认值为 classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+#spring.resources.static-locations:
+
+spring.servlet.multipart.enabled: true #默认支持文件上传.
+#spring.servlet.multipart.file-size-threshold: 0 #支持文件写入磁盘.
+#spring.servlet.multipart.location:  # 上传文件的临时目录
+spring.servlet.multipart.maxFileSize: 100Mb # 最大支持文件大小
+spring.servlet.multipart.max-request-size: 100Mb # 最大支持请求大小
+
+file.basePath: "/app/"
